@@ -17,7 +17,10 @@ api.js ->
 and so on...
 
 
-Ezek saját ötletek:
-az id generátorban lehet ellenőrzés hogy létezik-e már az ID, vagy lehet benne indexelést létrehozó method
-error handlingben lehetne kiolvasó a statusCode-hoz
-	
+//Ezek saját ötletek:
+//az id generátorban lehet ellenőrzés hogy létezik-e már az ID, vagy lehet benne indexelést létrehozó method
+//error handlingben lehetne kiolvasó a statusCode-hoz
+
+Feladat: a rendszer legyen képes kapcsolt táblás keresésre is (opcionális/extra)
+	az angular frontend segítségével lehessen elvégezni az összes CRUD műveletet
+	legalább 5 féle adattípust kezeljen (5 collection -> user, order, stb, minden connection külön json fájlban van, úgy mint a webfueles apiban)
