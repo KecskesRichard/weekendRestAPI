@@ -1,0 +1,23 @@
+﻿Otthoni munka:
+terminal - 
+	express .
+	cd .
+	npm i
+	npm i --save pug
+app.js - 14 row app.set('view engine', 'pug'); jade-ről
+views - fájlkiterjesztések .jade -> .pug
+routes mappa -> api.js   index.js tartalmát az api.js-be másolni
+app.js -> app.use-be vegyük fel az api.js-t 26. row    app.use('/api', require('./routes/api'));
+új mappa gyökérbe -> db -> bele új json file: user.json -> file tartalma üres tömb []
+api.js -> 
+	const fs = require('fs');
+	const path = require('path');
+
+	const dbPath = '../db';
+and so on...
+
+
+Ezek saját ötletek:
+az id generátorban lehet ellenőrzés hogy létezik-e már az ID, vagy lehet benne indexelést létrehozó method
+error handlingben lehetne kiolvasó a statusCode-hoz
+	
